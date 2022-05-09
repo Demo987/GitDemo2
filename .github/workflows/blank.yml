@@ -133,10 +133,3 @@ jobs:
           nowPassword: ${{ secrets.SN_PASSWORD }}
           nowInstallInstance: ${{ secrets.SN_PROD_INSTANCE }}
           appSysID: ${{ secrets.SN_APP_SYSID }}# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
